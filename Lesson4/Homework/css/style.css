@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1080px;
+    margin: auto;
+}
+
+.logo{
+   vertical-align: middle;
+}
+
+header nav li{
+    display: inline-block; 
+    margin-right: 51px;
+    vertical-align: middle;
+}
+
+header nav li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.active{
+        color: #C08D5D;
+}
+
+.content-header{
+        display: inline-block;
+        border-bottom: 1px solid #C08D5D;
+        padding: 42px 0;
+}
+
+nav{
+    display: inline-block;
+        margin-left: 83.36px;
+}
+    
+body{
+    background: url(../images/grape.svg) no-repeat right top  #FFFAF3;
+}
+
+main{
+    padding-top: 122px;
+    padding-bottom: 68px;
+}
+
+.button{
+    display: inline-block;
+    border: 2px solid #C08D5D;
+    padding-left: 15px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Yeseva One';
+    color:rgba(63, 64, 66, 1) ;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 81px;
+    letter-spacing: 0.06em;
+
+}
+
+h1 span{
+    display: block;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: 0.06em;
+}
+
+h1 span::after{
+    content: url(../images/Logo.svg);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1::after{
+    content: url(../images/waveline.svg);
+    display: block;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    width: 165px;
+}
+
+p{
+    max-width: 535px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 147.6%;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+    padding-bottom: 72px;
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: #3F4042;
+    border: 2px #C08D5D solid;
+    padding-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 64px;
+    letter-spacing: 0.06em;
+    
+}
+
+.button::after{
+    content:url(../images/Arrow.svg);
+    display: inline-block;
+    width: 59px;
+    height: 64px;
+    line-height: 64px;
+    margin-left: 15px ;
+    text-align: center;
+    background-color: #C08D5D;
+    color: #FFFAF3;
+    
+}
+
+.mouse{
+    display: block;
+    padding: 60px 0 70px;
+    width: 33px;
+    height: 70px;
+    margin: auto;
+}
+
